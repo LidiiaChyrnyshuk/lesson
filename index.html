@@ -5,43 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+   <link rel="stylesheet" href="./css/styles.css">
+
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav>
-        <a href="./index.html">logo</a>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Blogs</a></li>
+        <a href="./index.html" class="header-logo link">logo</a>
+        <ul class="list">
+          <li><a href="./index.html" class="nav-link link">Home</a></li>
+          <li><a href="" class="nav-link link">About Us</a></li>
+          <li><a href="" class="nav-link link">Services</a></li>
+          <li><a href="" class="nav-link link">Blogs</a></li>
         </ul>
       </nav>
-      <button type="button">Gift Finder</button>
+      <button type="button" class="nav-btn">Gift Finder</button>
     </header>
     <main>
       <!-- Hero -->
-      <section>
+      <section class="section">
         <img src="./images/img1.jpg" alt="newlyweds" width="719" />
-        <h1>Find a gift for your wife or girlfriend</h1>
-        <p>
+        <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
+        <p class="hero-text">
           Struggling to find a gift for your wife or girlfriend? No problem!
         </p>
-        <button type="button">Find gift now</button>
+        <button type="button" class="hero-btn">Find gift now</button>
       </section>
-      <section>
+      <!-- Feature -->
+      <section class="section">
         <img src="./images/img2.jpg" alt="black thank you card" width="721" />
-        <h2>How we work</h2>
-        <p>
+        
+        <h2 class="feature-title">How we work</h2>
+        <p class="feature-text">
           We’ve actually already asked hundreds of women what they want, and
           made a database with the results. All you have to do is take our short
           survey that only takes seconds, and our proprietary algorithm will
           match you with a few perfect gift options.
         </p>
 
-        <button type="button">Learn More</button>
+        <button type="button" class="nav-btn">Learn More</button>
       </section>
+      <!-- Posts Tall -->
       <section>
         <h2>Gifts for all Occasions</h2>
         <p>“Try our web app to find the best gifts for all occasions”</p>
@@ -76,15 +83,16 @@
           </li>
         </ul>
       </section>
+      <!-- CTA Section -->
       <section>
         <strong>Ready to get started?</strong>
         <h2>Sign up or contact us</h2>
         <ul>
-          <li><button type="button">Find gift now</button></li>
-          <li><button type="button">how it works</button></li>
+          <li><button type="button" class="first-btn">Find gift now</button></li>
+          <li><button type="button" class="secondary-btn">how it works</button></li>
         </ul>
       </section>
-      <!-- Blog -->
+      <!-- Posts Blog Top -->
       <section>
         <h2>Our Best Blogs Ever</h2>
         <p>
@@ -116,6 +124,7 @@
         </ul>
       </section>
     </main>
+    <!-- Footer -->
     <footer>
       <ul>
         <li><a href="">Home</a></li>
