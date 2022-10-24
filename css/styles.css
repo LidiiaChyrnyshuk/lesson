@@ -8,98 +8,97 @@
 /* see more font Roboto 400 */
 /* logo text font Homemade Apple 400 */
 
-:root{
-    
-    --text-color:#000000;
-    --accent-color:#F7941E;
-    --main-white-color:#FFFFFF;
-    --section-background-color:#F1F1F2;
-    --footer-background-color:#FAFAFA;
-
+:root {
+  --text-color: #000000;
+  --accent-color: #f7941e;
+  --main-white-color: #ffffff;
+  --section-background-color: #f1f1f2;
+  --footer-background-color: #fafafa;
 }
-.list{
-  list-style: none;  
+.list {
+  list-style: none;
 }
-.link{
-text-decoration: none;
+.link {
+  text-decoration: none;
 }
-.section{
-    background-color:var(--section-background-color);
+.section {
+  background-color: var(--section-background-color);
 }
 /* Header */
-.body{
-background-color: #FFFFFF;
-color:var(--text-color);
-font-family:"Montserrat", sans-serif;
+.body {
+  background-color: #ffffff;
+  color: var(--text-color);
+  font-family: "Montserrat", sans-serif;
 }
 /* logo */
-.header-logo{
-    color:#231F20;
-    font-family: 'Homemade Apple', sans-serif;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.header-logo {
+  color: #231f20;
+  font-family: "Homemade Apple", sans-serif;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.nav-link{
-    color: var(--text-color);
-    font-family:inherit;
-font-size: 18px;
-line-height: 1.22;
-display: flex;
-align-items: center;
+.nav-link {
+  color: var(--text-color);
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.22;
+  display: flex;
+  align-items: center;
 }
-.nav-btn{
-    background-color: var(--main-white-color);
-    color: var(--accent-color);
-    font-family:inherit;
-font-size: 18px;
-line-height: 1.22;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-border-color: var(--accent-color);
+.nav-btn {
+  background-color: var(--main-white-color);
+  color: var(--accent-color);
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.22;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border-color: var(--accent-color);
 }
 /* Hero */
-.hero-title{
-    color: var(--text-color);
-    font-style: normal;
-    font-family:inherit;
-    font-weight: 700;
-font-size: 56px;
-line-height: 1.23;
+.hero-title {
+  color: var(--text-color);
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.23;
 }
-.hero-text{
-    color: var(--text-color);
-    font-style: normal;
-    font-weight: 400;
-    font-family:inherit;
-font-size: 20px;
-line-height: 1.4;
+.hero-text {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 1.4;
 }
-.hero-btn{
-    background-color:var(--accent-color);
-    color: var(--main-white-color);
-    font-family:inherit;
-font-size: 18px;
-line-height: 1.22;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-border: 0;
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.22;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0;
 }
-.feature-title{
-    color: var(--text-color);
-    font-style: normal;
-    font-weight:400;
-    font-family:inherit;
-font-size: 32px;
-line-height: 1.4;
+.feature-title {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-family: inherit;
+  font-size: 32px;
+  line-height: 1.4;
 }
-.feature-text{
-    color: var(--text-color);
-    font-style: normal;
-    font-weight:400;
-    font-family:inherit;
-font-size: 20px;
-line-height: 1.4;
+.feature-text {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 1.4;
 }
